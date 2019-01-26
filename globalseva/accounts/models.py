@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 class NGO(models.Model):
+	darpanId = models.CharField(max_length = 30, default = "")
 	username = models.CharField(max_length = 20)
 	password = models.CharField(max_length = 50)
 	name = models.CharField(max_length = 20)
