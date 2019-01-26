@@ -325,11 +325,11 @@ a:hover, a:active {
 }
 
 .hero-slider .swiper-button-next {
-    right: 80px;
+    right: 40px;
 }
 
 .hero-slider .swiper-button-prev {
-    left: 80px;
+    left: 40px;
 }
 
 .hero-slider .swiper-button-next span,
